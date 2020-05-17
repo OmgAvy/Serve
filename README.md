@@ -1,18 +1,11 @@
 
-all: README.md
 
-README.md:
+# AVINASH PRAJAPATI UNIX WORKBENCH' 
 
-echo '# AVINASH PRAJAPATI UNIX WORKBENCH' > README.md
+## Peer Graded assignment ##
 
-echo '## Peer Graded assignment ##' >> README.md
+* This makefile was run at: $(shell date +%Y-%m-%d:%H:%M:%S) *
 
-echo '* This makefile was run at: $(shell date +%Y-%m-%d:%H:%M:%S) *' >> README.md
+* There were $(shell wc -l < guessinggame.sh) lines in guessinggame.sh *
 
-echo '* There were $(shell wc -l < guessinggame.sh) lines in guessinggame.sh *' >> README.md
-
-echo '# Enjoy the guessing Game! #'>>README.md
-
-clean:
-	rm README.md
-
+# Enjoy the guessing Game! #
