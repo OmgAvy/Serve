@@ -10,6 +10,7 @@ function get_file {
 }
 
 correct=$(get_file)
+
 while [[ $guess -ne $correct ]]
 do
 	if [[ $guess -gt $correct ]]
@@ -18,7 +19,9 @@ do
 	else 
 		echo "Sorry, your guess was too low..."
 	fi
+	echo
 	echo "Try again: "
 	read guess
 done
+
 echo "Congratulations! You guessed the right number!"
