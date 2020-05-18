@@ -1,11 +1,7 @@
+## This repository was made for an assignment submission for an online course on BASH and UNIX scripting from Johns Hopkins University. [coursera.org](https://www.coursera.org/)
 
+**Description**: make a program called *guessinggame.sh*. This program should continuously ask the user to guess the number of files in the current directory, until they guess the correct number. The user is informed if their guess is too high or too low. Once the user guesses the correct number of files in the current directory they should be congratulated.
 
-# AVINASH PRAJAPATI UNIX WORKBENCH' 
+**Making Date**: Mon May 18 13:48:16 IST 2020
 
-## Peer Graded assignment ##
-
-* This makefile was run at: $(shell date +%Y-%m-%d:%H:%M:%S) *
-
-* There were $(shell wc -l < guessinggame.sh) lines in guessinggame.sh *
-
-# Enjoy the guessing Game! #
+**Number of lines in guessinggame.sh:** 27
